@@ -1,3 +1,5 @@
+![alt text](screenshot.png "San Francisco Muni Bus map")
+
 # San Francisco Muni Bus map
 
 Built in React, this little app was built to consume the [NextBus](http://www.nextbus.com/xmlFeedDocs/NextBusXMLFeed.pdf) JSON Rest API. The challenge was proposed by [Thousand Eyes](https://thousandeyes.com) to serve as a code test.

@@ -1,9 +1,9 @@
 {
-  "name": "thousand-eyes-code-test-tristan",
+  "name": "san-francisco-muni-bus-map",
   "version": "1.0.0",
-  "description": "Code Test for Thousand Eyes",
+  "description": "React and D3 app to display SF Muni bus locations on a map of SF",
   "main": "index.js",
-  "repository": "https://github.com/tristanMatthias/thousand-eyes-code-test-tristan.git",
+  "repository": "https://github.com/tristanMatthias/San-Francisco-Muni-Bus-map.git",
   "author": "Tristan Matthias <hello@tristanmatthias.com>",
   "license": "MIT",
   "scripts": {
