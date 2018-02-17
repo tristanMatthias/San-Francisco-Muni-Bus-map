@@ -1,6 +1,6 @@
+# San Francisco Muni Bus map
 ![alt text](screenshot.png "San Francisco Muni Bus map")
 
-# San Francisco Muni Bus map
 
 Built in [React](https://reactjs.org/) & [D3](https://d3js.org/), this little app was built to consume the [NextBus](http://www.nextbus.com/xmlFeedDocs/NextBusXMLFeed.pdf) JSON Rest API. It pulls map layer data from `/data`, and plots the buses onto the map.
 
