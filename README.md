@@ -1,6 +1,6 @@
 # San Francisco Muni Bus map
 
-Built in React, this little app was built to consume the [NextBus](www.nextbus.com/xmlFeedDocs/NextBusXMLFeed.pdf) JSON Rest API. The challenge was proposed by [Thousand Eyes](thousandeyes.com) to serve as a code test.
+Built in React, this little app was built to consume the [NextBus](http://www.nextbus.com/xmlFeedDocs/NextBusXMLFeed.pdf) JSON Rest API. The challenge was proposed by [Thousand Eyes](https://thousandeyes.com) to serve as a code test.
 
 ## Running
 Run `yarn` or `npm i` to install the dependencies
