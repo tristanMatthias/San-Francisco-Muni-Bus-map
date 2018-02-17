@@ -1,0 +1,40 @@
+.map {
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    transition: all 0.35s;
+
+    &.loaded {
+        opacity: 1;
+    }
+
+    g.layer {
+        width: 100%;
+        height: 100%;
+
+        path {
+            stroke: #8d8eb4;
+            fill: transparent;
+            stroke-width: 1px;
+            stroke-linejoin: round;
+        }
+
+        &.neighborhoods path {
+            fill: $color-neighborhood;
+            stroke-width: 2px;
+            stroke: transparent;
+        }
+        &.streets path {
+            stroke: $color-street;
+        }
+        &.arteries path {
+            stroke: $color-artery;
+        }
+        &.freeways path {
+            stroke: $color-freeway;
+        }
+    }
+    circle {
+        fill: $color-vehicle;
+    }
+}

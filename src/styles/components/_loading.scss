@@ -1,0 +1,11 @@
+.loading {
+    z-index: 100;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    font-size: 2.4rem;
+    text-align: center;
+    letter-spacing: 2px;
+
+    transform: translate(-50%, -50%);
+}

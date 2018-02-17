@@ -1,0 +1,29 @@
+@import 'variables';
+@import 'components/import';
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2:100,400,700');
+
+html, body, #app {
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: $color-background;
+    font-family: $ff;
+    color: $color-text;
+    font-weight: 100;
+    font-size: 10px;
+}
+
+aside {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+    z-index: 100;
+
+
+    h1 {
+        font-size: 3.6rem;
+        font-weight: 100;
+    }
+}

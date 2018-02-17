@@ -1,0 +1,22 @@
+.route-filter {
+    input {
+        height: 6rem;
+        background-color: $color-neighborhood;
+        border: 2px solid $color-street;
+        border-radius: 8px;
+        font-size: 2.4rem;
+        font-family: $ff;
+        color: $color-text;
+        font-weight: 400;
+        padding: 0 2rem;
+        outline: none;
+
+        &::placeholder {
+            color: $color-freeway;
+        }
+
+        &:focus {
+            border-color: $color-vehicle;
+        }
+    }
+}
